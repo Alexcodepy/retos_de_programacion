@@ -17,3 +17,15 @@ def anagrama(palabra1, palabra2):
     print("Son anagramas")
 
 anagrama("gaua", "agua")
+
+
+#Smplificado usando sorted
+def anagrama(palabra1, palabra2):
+    if len(palabra1) != len(palabra2) or palabra1 == palabra2:
+        print("No son anagramas")
+    elif sorted(palabra1) == sorted(palabra2):
+        print("Son anagramas")
+    else:
+        print("No son anagramas")
+
+anagrama("ga", "ag")
