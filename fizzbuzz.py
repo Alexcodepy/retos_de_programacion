@@ -1,3 +1,4 @@
+```python
 """
 Imprime los números del 1 al 100.
 Si un número es divisible por 3, muestra “fizz”.
@@ -19,3 +20,4 @@ def fizz_buzz():
                 print(e)
  
 fizz_buzz()
+```
