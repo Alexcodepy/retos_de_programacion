@@ -33,3 +33,4 @@ def anagrama(palabra1, palabra2):
         print("No son anagramas")
 
 anagrama("ga", "ag")
+```
