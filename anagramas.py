@@ -1,6 +1,3 @@
-```python
-
-
 """
 Determina si dos palabras son anagramas.
 Deben tener las mismas letras en la misma cantidad.
@@ -21,7 +18,7 @@ def anagrama(palabra1, palabra2):
 
 anagrama("gaua", "agua")
 
-
+#Otra manera de hazerlo
 #Smplificado usando sorted
 
 def anagrama(palabra1, palabra2):
@@ -33,4 +30,3 @@ def anagrama(palabra1, palabra2):
         print("No son anagramas")
 
 anagrama("ga", "ag")
-```
