@@ -1,5 +1,3 @@
-
-
 """Crea un juego en Python para adivinar una palabra de 5 letras con intentos limitados.
 El usuario introduce palabras y el programa valida su longitud.
 Se muestra ✅, 🟡 o ❌ según aciertos de letras y posiciones.
